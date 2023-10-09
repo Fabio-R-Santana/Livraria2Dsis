@@ -2,6 +2,7 @@
 <html>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="livraria.css">
+    <link rel="stylesheet" href="home.html">
 <head>
     <title>Livraria Online</title>
 </head>
@@ -14,15 +15,20 @@
     <input type="number" id="valorCompra" placeholder="Insira o valor em R$">
     <button onclick="calcularDesconto()">Calcular Desconto</button>
     <p>Desconto aplicado: <span id="desconto"></span></p>
-
     
+    <nav>
+        <ul>
+            <li>
+                <a href="cadastro.html">Cadastro</a>
 
-
+            </li>
+        </ul>
+    </nav>
     <form>
         Defina seu nivel de sasisfação:<br>
-        pouco satisfeito
+        Pouco Satisfeito
         <input type="range" name="satisfacao" min="0" max="10">
-        muito satisfeito
+        Muito Satisfeito
 
     </form>
     <img src="estante.jpeg" class="estante">
